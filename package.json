@@ -1,0 +1,20 @@
+{
+  "name": "sttl-tst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js & npm run startClient",
+    "startClient": "cd ./client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/wreck": "^17.1.0",
+    "dotenv": "^8.2.0"
+  }
+}
